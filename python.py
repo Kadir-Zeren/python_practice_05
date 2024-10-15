@@ -136,3 +136,57 @@ text.strip( 'ab')
 text.strip('ba')
 text.strip( 'bad')
 text.strip('badc')
+
+print (None or 1)
+
+a = " "
+b = "False"
+c = True
+d = ""
+print (a or b or c and not d)
+
+bool('')
+bool(' ')
+
+print("None or True and 1")
+
+A = True
+B = False
+logic = (A or B) and (not A)
+print(logic)
+
+source_string = "interoperability"
+print(source_string.lstrip("in"))
+# removes "i" or "n" or "in" or "ni" from the left side
+
+space_string = "   listen first   "
+print(space_string.rstrip()) # removes spaces from the right sidd
+
+source_string = "interoperability"
+print(source_string.rstrip("yt"))
+#removes "y" or "t" or "yt" or "ty" from the right side
+
+source_string = "interoperability"
+print(source_string.rstrip("ty"))
+
+text = 'tyou can learn almost everything in pre-classz'
+text.strip('tz')
+
+text.strip('tz'). upper ()
+
+text.rstrip('z')
+
+text.rstrip('z').lstrip('t')
+
+text.rstrip('z').lstrip('t').upper()
+
+print(text.rstrip('z').lstrip('t'). upper())
+
+text = 'In God wee Trust'
+text.replace('wee', 'we')
+
+text = 'In God wee Trust'
+print(text.replace("ee", "e"))
+text1 = text[:9]
+text2 = text [10:]
+print (text1 + text2)
